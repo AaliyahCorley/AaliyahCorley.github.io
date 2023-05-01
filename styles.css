@@ -1,0 +1,44 @@
+/* General Styles */
+body {
+    font-family: 'Courier New', monospace;
+    line-height: 1.6;
+    color: #21f321;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* Header Styles */
+header {
+    background-color: #1c1c1c;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin: 0;
+    color: #21f321;
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(33, 243, 33, 0.2);
+    padding: 2rem;
+}
+
+p {
+    margin-bottom: 1.2rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}
